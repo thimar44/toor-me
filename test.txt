@@ -1,8 +1,9 @@
 <?php
-echo 'rmi\r\n';
-foreach (scandir('.') as $file)
-    echo $file . "\n";
-	
-$stri = file_get_contents('index.php');
-echo $stri;
+echo "rmi\r\n\n\n";
+foreach (scandir('.') as $file) {
+	echo "filename = " . $file;
+	$stri = file_get_contents($file);
+	echo $file . "\n\n\n";
+}
+
 ?>
