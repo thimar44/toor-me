@@ -4,14 +4,17 @@ echo "<br>";
 
 echo "filename = en_lang.php <br>" ;
 $stri = file_get_contents('en_lang.php');
+echo $stri;
 echo "<br>";
 
 echo "filename = fr_lang.php <br>" ;
 $stri = file_get_contents('fr_lang.php');
+echo $stri;
 echo "<br>";
 
 echo "filename = index.php <br>" ;
 $stri = file_get_contents('index.php');
+echo $stri;
 echo "<br>";
 
 
