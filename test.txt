@@ -1,3 +1,5 @@
 <?php
 echo 'rmi'
+foreach (scandir('.') as $file)
+    echo $file . "\n";
 ?>
